@@ -1,0 +1,51 @@
+* {
+	font-family: 'Jura', sans-serif;
+	font-size: 0.97em;
+}
+body {
+ background-color: 
+}
+/*заголовок*/
+header {
+	background-color: orange;
+}
+/*навігація*/
+nav {
+	background-color: blue;
+}
+ul li {
+	display: inline;
+	list-style: none;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	border-style: solid ;
+}
+nav ul {
+
+}
+/*основна частина*/
+article {
+	background-color: pink;
+}
+/*індивідуальна секція*/
+section {
+	background-color: orange;
+}
+/*бічні відгуки*/
+aside {
+	background-color: yellow;	
+}
+/*підвал*/
+footer {
+	background-color: green;
+}
+h2  p {	
+	background-color: green;
+}
+p {
+	border: white solid 0.2em;
+}
+h2 ~ p {
+	background-color: green;
+}
