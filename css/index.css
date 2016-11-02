@@ -1,5 +1,5 @@
 * {
-	font-family: 'Jura', sans-serif;
+	font-family: 'Ubuntu Mono', monospace;
 	font-size: 0.97em;
 }
 body {
@@ -30,6 +30,12 @@ nav ul {
 /*основна частина*/
 article {
 	background-color: pink;
+}
+article p:first-child {
+	width: 50%;
+}
+article section p {
+	width: 50%;
 }
 /*індивідуальна секція*/
 section {
