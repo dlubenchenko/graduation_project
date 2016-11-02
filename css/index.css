@@ -9,6 +9,9 @@ body {
 header {
 	background-color: orange;
 }
+header img {
+	width:10%;	
+}
 /*навігація*/
 nav {
 	background-color: blue;
