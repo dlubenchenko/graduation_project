@@ -1,20 +1,31 @@
 * {
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 0.97em;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
  background-color: 
 }
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
 /*заголовок*/
 header {
 	background-color: orange;
+	padding: 20px 0;
 }
 .header_photo {
-	width: 200px;	
+	width: 200px;
 }
 /*навігація*/
 nav {
 	background-color: blue;
+}
+nav a {
+	text-decoration: none;
 }
 ul li {
 	display: inline;
@@ -30,9 +41,6 @@ nav ul {
 /*основна частина*/
 article {
 	background-color: pink;
-}
-article p:first-child {
-	width: 50%;
 }
 article section p {
 	width: 50%;
