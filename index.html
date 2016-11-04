@@ -51,6 +51,7 @@
 							</label>
 						</p>
 						<p> <!-- Номер телефону 380123456789 -->							<!-- Як зробити обовязковим -->
+							<label>
 								<select name="phone">
 									<option value="blank" selected> </option> 
 									<option value="039">039</option>
@@ -72,6 +73,7 @@
 									<option value="091">091</option>
 								</select> - 
 							<input type="tel" name="phone" placeholder="1234567" pattern="[0-9]{7}" maxlength="7" required><i> Ваш телефон</i>
+							</label>
 						</p>
 						<p> <!-- Вік  -->
 								<input type="range" value="21" name="age"><i> Ваш вік</i>
@@ -97,12 +99,14 @@
 							</label>
 						</p>
 						<p> <!-- Місцезнаходження випадаюче меню / області -->
-							<select name="location">
-								<option value="blank" selected></option> 
-								<option value="lviv">Львів</option>
-								<option value="kyiv">Київ</option>
-								<option value="odessa">Одесса</option>
-							</select><i> Розташування</i>
+							<label>
+								<select name="location">
+									<option value="blank" selected></option> 
+									<option value="lviv">Львів</option>
+									<option value="kyiv">Київ</option>
+									<option value="odessa">Одесса</option>
+								</select><i> Розташування</i>
+							</label>
 						</p>
 				</fieldset>
 				<br>
