@@ -52,6 +52,9 @@ aside img{
 article {
 	height: 500px;
 }
+aside form {
+	width:50%;
+}
 section {
 	background-color: black;
 	color: white;
