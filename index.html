@@ -42,12 +42,12 @@
 					<legend><h2><i><u>Про себе</u></i></h2></legend> <!-- Особисті дані -->
 						<p> <!-- ПІБ -->
 							<label for="full_name">
-								<input id="full_name" type="text" name="full_name" placeholder="Enter Full Name" autofocus="autofocus" size="30" required><i> Full Name</i>
+								<input id="full_name" type="text" name="full_name" placeholder="Enter Full Name" autofocus="autofocus" size="30" required><i> Прізвище Ім'я По-Батькові</i>
 							</label>
 						</p>
 						<p> <!-- Email -->
 							<label for="email">
-								<input id="email" type="email" name="email" placeholder="example@example.com" required size="30"><i> Your Email</i>
+								<input id="email" type="email" name="email" placeholder="example@example.com" required size="30"><i> Електронна адреса</i>
 							</label>
 						</p>
 						<p> <!-- Номер телефону 380123456789 -->							<!-- Як зробити обовязковим -->
@@ -71,19 +71,19 @@
 									<option value="099">099</option>
 									<option value="091">091</option>
 								</select> - 
-							<input type="tel" name="phone" placeholder="1234567" pattern="[0-9]{7}" maxlength="7" required><i> Your phone number</i>
+							<input type="tel" name="phone" placeholder="1234567" pattern="[0-9]{7}" maxlength="7" required><i> Ваш телефон</i>
 						</p>
 						<p> <!-- Вік  -->
-								<input type="range" value="21" name="age"><i> Your age</i>
+								<input type="range" value="21" name="age"><i> Ваш вік</i>
 						</p>
 						<p> <!-- Стать  М / Ж випадаюче меню-->
 							<fieldset>
-								<legend><i>Your gender</i></legend>
+								<legend><i>Стать</i></legend>
 									<label for="male">
-										<input id="male" name="gender" type="radio" value="male"> Male
+										<input id="male" name="gender" type="radio" value="male"> Чоловік
 									</label>
 									<label for="female">
-										<input id="female" name="gender" type="radio" value="female"> Female
+										<input id="female" name="gender" type="radio" value="female"> Жінка
 									</label>
 							</fieldset>
 						</p>
@@ -91,45 +91,18 @@
 							<label>
 								<select name="language">
 									<option value="blank" selected> </option> 
-									<option value="ukrainian">Ukrainian</option>
-									<option value="english">English</option>
-									<option value="german">German</option>
-									<option value="french">French</option>
-									<option value="hindi">Hindi</option>
-									<option value="russian">Russian</option>
-									<option value="arab">Arab</option>
-								</select><i> Your language</i>							<!-- виноска фрази за select -->
+									<option value="ukrainian">Українська</option>
+									<option value="english">Російська</option>
+								</select><i> Мова спілкування</i>							<!-- виноска фрази за select -->
 							</label>
 						</p>
 						<p> <!-- Місцезнаходження випадаюче меню / області -->
 							<select name="location">
 								<option value="blank" selected></option> 
-								<option value="vinnytsia">Vinnytsia</option>
-								<option value="volyn">Volyn</option>
-								<option value="dnipropetrovsk">Dnipropetrovsk</option>
-								<option value="donetsk">Donetsk</option>
-								<option value="zhytomyr">Zhytomyr</option>
-								<option value="zakarpattia">Zakarpattia</option>
-								<option value="zaporizhia">Zaporizhia</option>
-								<option value="ivano-Frankivsk">Ivano-Frankivsk</option> 
-								<option value="kiev">Kiev</option>
-								<option value="crimea">Crimea</option>
-								<option value="kirovohrad">Kirovohrad</option>
-								<option value="lugansk">Lugansk</option>
-								<option value="lviv">Lviv</option>
-								<option value="mykolaiv">Mykolaiv</option>
-								<option value="odessa">Odessa</option>
-								<option value="poltava">Poltava</option> 
-								<option value="rivne">Rivne</option>
-								<option value="sumy">Sumy</option>
-								<option value="ternopil">Ternopil</option>
-								<option value="kharkiv">Kharkiv</option>
-								<option value="kherson">Kherson</option>
-								<option value="khmelnitsky">Khmelnitsky</option>
-								<option value="cherkasy">Cherkasy</option>
-								<option value="chernihiv">Chernihiv</option>
-								<option value="chernivtsi">Chernivtsi</option>
-							</select><i> Your location</i>
+								<option value="lviv">Львів</option>
+								<option value="kyiv">Київ</option>
+								<option value="odessa">Одесса</option>
+							</select><i> Розташування</i>
 						</p>
 				</fieldset>
 				<br>
