@@ -40,7 +40,7 @@ ul li {
 	width: 110px;
 }
 aside {
-
+	display: flex;
 }
 aside#welcome {
 
@@ -50,18 +50,21 @@ aside img{
 	position: static;
 }
 article {
-	height: 200px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	display: inline-flex;
+	width: 100%;
 }
 #about {
 	background-color: yellow;
+	display: flex;
 }
 article p {
 	float: right;
-	width: 100px;
-	margin: 10px 200px;
+
 }
 aside form {
-	width:50%;
+	display: flex;
 	padding: auto;
 }
 aside form p {
@@ -74,9 +77,13 @@ section {
 }
 #specialization {
 	background-color: blue;
+	width: 100%;
 }
 #about_img {
 
+}
+#projects {
+	width: 100%
 }
 section p {
 	display: inline-flex;
