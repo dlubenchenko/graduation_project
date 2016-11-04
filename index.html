@@ -2,81 +2,76 @@
 <html lang="uk">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">   
-	<title>Гештальть-терапевт</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Гештальт-терапевт</title>
 </head>
 <body>
 	<div id="wrapper">
-		<header>
-		<h2>LOGO</h2>
-			<p>Кузик Григорій Костянтинович</p>
-		</header>
-		<nav>
-			<ul class="container">
-				<li><a href="#">Про мене</a></li>
-				<li><a href="#">Мої проекти</a></li>
-				<li><a href="#">Великий проект</a></li>
-				<li><a href="#">Відгуки</a></li>
-				<li><a href="#">Контакти</a></li>
+		<header> <!--head-->
+			<a href=""><img id="logo" src="img/logo.png"></a>
+			<b>therapi@i.ua</b>
+			<b>067-67-22-496</b>
+		</header> <!--end of head-->
+		<nav> <!--navigation-->
+			<ul id="nav_menu">
+				<li class="nav_margin">Про мене</li>
+				<li>Мої проекти</li>
+				<li>Великий проект</li>
+				<li>Відгуки</li>
+				<li>Контакти</li>
 			</ul>
-		</nav>
-		<article>
-			<h2>Article</h2>
-				<img class="header_photo" src="img/photo7845550_440911876.jpg" alt="grigoriy_kuzik">
-				<p>
-					Індивідуальні консультації
-					Групова терапія 
-					Тренінги
-				</p>
-				<p>
-					Практикуючий психолог 
-					психотерапевт
-					гештальт-терапевт
-					бізнес-тренер
-				</p>
-				<p>asjblsavlasblvslis</p>
+		</nav> <!--end navigation-->
+		<aside id="welcome">  <!--greeting-->
+			<img src="img/about_s.jpg">
+		</aside>  <!--end greeting-->
+		<article> <!--about-->
+			<h2>About</h2>
+				<section id="about_img"></section>
+			<p>Індивідуальні консультації
+			Групова терапія 
+			Тренінги</p>
+
+			<p>Практикуючий психолог 
+			психотерапевт
+			гештальт-терапевт
+			бізнес-тренер</p>
+		</article> <!--end about-->
+		<aside> <!--check-->
+			<h2>Записатися</h2>
+			<form>
+				<input type="text" name="name"><br>
+				<input type="text" name="name">
+			</form>
+		</aside> <!--end heck-->
+		<article> <!--specialization-->
 			<section>
-				<h2>Article -> Section 1</h2>
-				<p>
-					Теми:
-					Кризові стани
-					Психологічні травми
-					Стосунки з партнером
-					Сексуальність
-					Сексологія
-					Сексопаталогія
-					Сексуальні дисфункції
-					Депресії
-					Дитячо-батьківськи стосунки
-					Втрати
-					Невпевненість в собі
-					Фобії та страхи
-					Нав'язливі думки
-					Апатія
-					Розлади харчової поведінки
-					Робота з підлітками
-					Дослідження способу організації комунікації з оточуючими
-					</p>
+				<h2>Specialization</h2>
+				<p>Кризові стани
+				Психологічні травми
+				Стосунки з партнером
+				Сексуальність
+				Сексологія
+				Сексопаталогія
+				Сексуальні дисфункції
+				Депресії
+				Дитячо-батьківськи стосунки</p>
+			</section>
+		</article> <!--projects-->
+		<article> <!--end projects-->
+			<section>
+				<h2>Projects</h2>
 			</section>
 		</article>
-		<aside>
-			<h2>Aside</h2>
-			<p>
-				Психологічні групи для підлітків "Дивовижний Я" (Львів)
-
-				Психотерапевтичні групи "Музика моєї душі" (Львів / Одеса)
-
-				Психотерапевтична група "Жити або виживати"(Львів)
-
-				Психологічні тренінги для організацій : "Королівство","Виживання" і т.д (Київ,Львів,Одеса)
-
-				Корпоративні Тренінги на підвишення рівня комунікації(продажі, сервіс, телепродажі) (Київ,Львів,Одеса)													
-			</p>
-		</aside>
+		<article class="hidden"> <!--hidden news-->
+			
+		</article>
 		<footer>
-			<h2>Fotter</h2>
+			<ul id="footer">
+				<li>Contacts</li>
+				<li>Links</li>
+				<li>Blog</li>
+				<li>Time menager</li>
+			</ul>
 		</footer>
 	</div>
 </body>

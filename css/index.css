@@ -1,68 +1,69 @@
 * {
-	font-family: 'Ubuntu Mono', monospace;
-	font-size: 0.97em;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-body {
- background-color: 
-}
-#wrapper {
-	max-width: 960px;
 	margin: auto;
-}
-/*заголовок*/
-header {
-	background-color: orange;
+	padding: auto;
 
 }
-.header_photo {
-	width: 200px;
+body {
+	max-width: auto;
 }
-/*навігація*/
+#wrapper {
+	
+}
+header {
+	display: flex;
+	background-color: #DCDCDC;
+}
+
+#logo {
+	height: 50px;
+	padding: 0 -25px;
+}
 nav {
-	background-color: blue;
+	margin: 0;
 }
-nav a {
-	text-decoration: none;
+#nav_menu {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	text-align: center;
+}
+ul {
+	padding: auto;
 }
 ul li {
-	display: inline;
+	display: inline-flex;
+	text-align: center;
 	list-style: none;
 	background: #000;
 	color: #fff;
-	padding: 5px;
-	border-style: solid ;
+	padding: 10px 60px;
+	border-style: solid;
+	width: 110px;
 }
-nav ul {
+aside {
 
 }
-/*основна частина*/
+aside#welcome {
+
+}
+aside img{
+	width: 100%;
+	position: static;
+}
 article {
-	background-color: pink;
+	height: 500px;
 }
-article section p {
-	width: 50%;
-}
-/*індивідуальна секція*/
 section {
-	background-color: orange;
+	background-color: black;
+	color: white;
+	height: 300px;
 }
-/*бічні відгуки*/
-aside {
-	background-color: yellow;	
+#about_img {
+
 }
-/*підвал*/
+section p {
+	display: inline-flex;
+}
 footer {
-	background-color: green;
-}
-h2  p {	
-	background-color: green;
-}
-p {
-	border: white solid 0.2em;
-}
-h2 ~ p {
-	background-color: green;
+	background-color: gray;
+	margin: auto;
 }
