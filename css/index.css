@@ -50,24 +50,39 @@ aside img{
 	position: static;
 }
 article {
-	height: 500px;
+	height: 200px;
+}
+#about {
+	background-color: yellow;
+}
+article p {
+	float: right;
+	width: 100px;
+	margin: 10px 200px;
 }
 aside form {
 	width:50%;
+	padding: auto;
 }
 aside form p {
 	padding: 5px;
 }
 section {
-	background-color: black;
+	background-color: green;
 	color: white;
 	height: 300px;
+}
+#specialization {
+	background-color: blue;
 }
 #about_img {
 
 }
 section p {
 	display: inline-flex;
+}
+#hidden {
+
 }
 footer {
 	background-color: gray;
