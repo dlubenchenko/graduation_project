@@ -54,6 +54,11 @@ article {
 }
 aside form {
 	width:50%;
+	display: flex;
+
+}
+aside form p {
+	padding: 5px;
 }
 section {
 	background-color: black;
