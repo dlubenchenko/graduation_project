@@ -11,11 +11,51 @@ body {
 }
 
 h1 {
-	color: #555;
+
 }
 
 .flex-header {
+	
+}
 
+.header-1 img {
+	width: 96px;
+	height: 67px;
+
+}
+
+.header-1,
+.header-2,
+.header-3 {
+	background: transparent!important; /*Забрати імпортант*/
+}
+
+.flex-nav {
+	
+}
+
+.nav-1 a, 
+.nav-2 a, 
+.nav-3 a, 
+.nav-4 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-1, 
+.nav-2, 
+.nav-3, 
+.nav-4 {
+	text-align: center;
+}
+
+.flex-hello img {
+	width: 100%;
+}
+
+.about-1 img {
+	width: 100%;
+	min-width: 320px;
 }
 
 .flex-element {
@@ -23,10 +63,6 @@ h1 {
 	margin: 5px;
 	background: firebrick;
 	border-radius: 3px;
-	text-align: center;
-}
-.header-1 img {
-	height: 60px;
 }
 
 .register-1 p {
@@ -34,9 +70,14 @@ h1 {
 	margin: 3px;
 }
 
-.register-1 input[type=reset], .register-1 input[type=submit] {
-	margin: 0 40px 10px 40px;
+.register-1 input[type=reset], 
+.register-1 input[type=submit] {
+	margin: 0 25px 10px 25px;
 	border-radius: 5px;
 	height: 35px;
 	width: 110px
+}
+
+.specialization-3 {
+	text-align: center;
 }

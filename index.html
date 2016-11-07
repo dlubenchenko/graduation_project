@@ -10,28 +10,28 @@
 
 	<div class="flex-header">
 		<div class="flex-element header-1">
-			<img src="img/logo.png" alt="logo">
+			<a href="index.html"><img src="img/logo.png" alt="logo"></a>
 		</div>
 		<div class="flex-element header-2">
-			<p>Phone</p>
+			<p>Phone: 067-67-22-496</p>
 		</div>
 		<div class="flex-element header-3">
-			<p>Email</p>
+			<p>Email: therapy@i.ua</p>
 		</div>
 	</div>
 
 	<div class="flex-nav">
 		<div class="flex-element nav-1">
-			About
+			<a href="">About</a>
 		</div>
 		<div class="flex-element nav-2">
-			Projects
+			<a href="">Projects</a>
 		</div>
 		<div class="flex-element nav-3">
-			Feedback
+			<a href="">Feedback</a>
 		</div>
 		<div class="flex-element nav-3">
-			Contacts
+			<a href="">Contacts</a>
 		</div>
 	</div>
 
@@ -67,7 +67,7 @@
 						</p>
 						<p> <!-- Номер телефону 380123456789 -->							<!-- Як зробити обовязковим -->
 								<select name="phone">
-									<option value="blank" selected> </option> 
+									<option value="blank" selected>...</option> 
 									<option value="039">039</option>
 									<option value="050">050</option>
 									<option value="063">063</option>
@@ -102,12 +102,15 @@
 									<label for="female">
 										<input id="female" name="gender" type="radio" value="female"> Жінка
 									</label>
+									<label for="other">
+										<input id="other" name="gender" type="radio" value="other"> Не вказано
+									</label>
 							</fieldset>
 						</p>
 						<p> <!-- Мова спілкування випадаюче меню -->
 							<label>
 								<select name="language">
-									<option value="blank" selected> </option> 
+									<option value="blank" selected>...</option> 
 									<option value="ukrainian">Українська</option>
 									<option value="english">Російська</option>
 								</select><i> Мова спілкування</i>							<!-- виноска фрази за select -->
@@ -116,7 +119,7 @@
 						<p> <!-- Місцезнаходження випадаюче меню / області -->
 							<label>
 								<select name="location">
-									<option value="blank" selected></option> 
+									<option value="blank" selected>...</option> 
 									<option value="lviv">Львів</option>
 									<option value="kyiv">Київ</option>
 									<option value="odessa">Одесса</option>
@@ -135,6 +138,9 @@
 	</div>
 
 	<div class="flex-specialization">
+		<div class="flex-element specialization-3">
+			<b>Теми:</b>
+		</div>
 		<div class="flex-element specialization-1">
 			<b>Кризові стани<br>
 			Психологічні травми<br>
