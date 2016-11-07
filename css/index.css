@@ -1,96 +1,42 @@
 * {
-	margin: auto;
-	padding: auto;
-
+	box-sizing: border-box;
 }
+
 body {
-	max-width: auto;
-}
-#wrapper {
-	
-}
-header {
-	display: flex;
-	background-color: #DCDCDC;
-}
-
-#logo {
-	height: 50px;
-	padding: 0 -25px;
-}
-nav {
-	margin: 0;
-}
-#nav_menu {
-	border-top: solid 1px;
-	border-bottom: solid 1px;
-	text-align: center;
-}
-ul {
-	padding: auto;
-}
-ul li {
-	display: inline-flex;
-	text-align: center;
-	list-style: none;
-	background: #000;
+	font-size: 1.35em;
+	font-family: 'Nunito', sans-serif;
 	color: #fff;
-	padding: 10px 60px;
-	border-style: solid;
-	width: 110px;
-}
-aside {
-	display: flex;
-}
-#welcome {
-	margin: auto;
-}
-aside img{
-	width: 100%;
-	position: static;
-}
-article {
-	border-top: solid 1px;
-	border-bottom: solid 1px;
-	display: flex;
-	width: 100%;
-}
-#about {
-	background-color: yellow;
-	height: 300px;
-}
-aside form {
-	display: flex;
-	padding: auto;
-}
-aside form p {
-	padding: 5px;
-}
-section {
-	background-color: green;
-	color: white;
-	display: flex;
-}
-.f_left {
-	float: right;
-}
-#specialization {
-	background-color: blue;
-	width: 100%;
-}
-#about_img {
+	background: #e8e9e9;
 
 }
-#projects {
-	width: 100%
+
+h1 {
+	color: #555;
 }
-section p {
-	display: inline-flex;
-}
-#hidden {
+
+.flex-header {
 
 }
-footer {
-	background-color: gray;
-	margin: auto;
+
+.flex-element {
+	color: #fff;
+	margin: 5px;
+	background: firebrick;
+	border-radius: 3px;
+	text-align: center;
+}
+.header-1 img {
+	height: 60px;
+}
+
+.register-1 p {
+	text-align: left;
+	margin: 3px;
+}
+
+.register-1 input[type=reset], .register-1 input[type=submit] {
+	margin: 0 40px 10px 40px;
+	border-radius: 5px;
+	height: 35px;
+	width: 110px
 }

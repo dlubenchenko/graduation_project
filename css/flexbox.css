@@ -1,0 +1,90 @@
+.flex-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+.header-1 img {
+	width: 68px;
+	height: 62px;
+}
+.flex-element {
+	order: 0;
+	flex: 1;
+}
+
+.flex-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+
+.flex-hello {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+
+.hello-1 img {
+	width: 100%;
+	min-width: 320px;
+}
+
+.flex-about {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	border-bottom: 2px solid black;
+	flex: 1;
+}
+
+.about-1 img {
+	width: 100%;
+	min-width: 320px;
+}
+
+.flex-register {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+
+.flex-specialization {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+
+.flex-projects {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}
+
+/*.flex-news {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}*/
+
+.flex-footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 2px solid black;
+}

@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/flexbox.css">
 	<title>Гештальт-терапевт</title>
 </head>
 <body>
-	<div id="wrapper">
-		<header> <!--head-->
-			<a href=""><img id="logo" src="img/logo.png"></a>
-			<b>therapi@i.ua</b>
-			<b>067-67-22-496</b>
-		</header> <!--end of head-->
-		<nav> <!--navigation-->
-			<ul id="nav_menu">
-				<li class="nav_margin">Про мене</li>
-				<li>Мої проекти</li>
-				<li>Великий проект</li>
-				<li>Відгуки</li>
-				<li>Контакти</li>
-			</ul>
-		</nav> <!--end navigation-->
-		<aside id="welcome">  <!--greeting-->
-			<img src="img/about_s.jpg">
-		</aside>  <!--end greeting-->
-		<article id="about"> <!--about-->
-			<h2></h2><br>
-			<section class="f_left">
-				Практикуючий психолог <br>
-				психотерапевт<br>
-				гештальт-терапевт<br>
-				бізнес-тренер<br>
-			<section>			
 
-			<section>
-				Індивідуальні консультації<br>
-				Групова терапія <br>
-				Тренінги
-			</section>
-		</article> <!--end about-->
-		<aside> <!--check-->
+	<div class="flex-header">
+		<div class="flex-element header-1">
+			<img src="img/logo.png">
+		</div>
+		<div class="flex-element header-2">
+			<p>Phone</p>
+		</div>
+		<div class="flex-element header-3">
+			<p>Email</p>
+		</div>
+	</div>
+
+	<div class="flex-nav">
+		<div class="flex-element nav-1">
+			About
+		</div>
+		<div class="flex-element nav-2">
+			Projects
+		</div>
+		<div class="flex-element nav-3">
+			Feedback
+		</div>
+		<div class="flex-element nav-3">
+			Contacts
+		</div>
+	</div>
+
+	<div class="flex-hello">
+		<div class="flex-element hello-1">
+			<img src="img/hello.jpg">
+		</div>
+	</div>
+
+	<div class="flex-about">
+		<div class="flex-element about-1">
+			<img src="img/about_me.jpg" alt="about me">
+		</div>
+		<div class="flex-element about-2">
+			<p>About me</p>
+		</div>
+	</div>
+
+	<div class="flex-register">
+		<div class="flex-element register-1">
 			<form method="POST" action="https://formspree.io/therapy@i.ua" >
 				<fieldset>
 					<legend><h2><i><u>Записатися</u></i></h2></legend> <!-- Особисті дані -->
 						<p> <!-- ПІБ -->
 							<label for="full_name">
-								<input id="full_name" type="text" name="full_name" placeholder="Enter Full Name" autofocus="autofocus" size="30" required><i> Прізвище Ім'я По-Батькові</i>
+								<input id="full_name" type="text" name="full_name" placeholder="Enter Full Name" size="30" required><i> Прізвище Ім'я По-Батькові</i>
 							</label>
 						</p>
 						<p> <!-- Email -->
@@ -116,46 +128,68 @@
 					<input type="reset" name="reset" value="reset">  <!-- Скидання форми -->
 					<input type="submit" name="submit" value="send" formtarget="_blank"><br> <!-- Відправка форми -->
 			</form>
-		</aside> <!--end heck-->
-		<article> <!--specialization-->
-			<section id="specialization">
-				<h2>Specialization</h2>
-				<i>Кризові стани<br>
-				Психологічні травми<br>
-				Стосунки з партнером<br>
-				Сексуальність<br>
-				Сексологія<br>
-				Сексопаталогія<br>
-				Сексуальні дисфункції<br>
-				Депресії<br>
-				Дитячо-батьківськи стосунки</i>
-			</section>
-		</article> 
-		<article> <!--projects-->
-			<section id="projects">
-				<h2>Projects</h2>
-				<b>Психологічні групи для підлітків "Дивовижний Я" (Львів)<br>
-
-				Психотерапевтичні групи "Музика моєї душі" (Львів / Одеса)<br>
-
-				Психотерапевтична група "Жити або виживати"(Львів)<br>
-
-				Психологічні тренінги для організацій : "Королівство","Виживання" і т.д (Київ,Львів,Одеса)<br>	
-
-				Корпоративні Тренінги на підвишення рівня комунікації(продажі, сервіс, телепродажі) (Київ,Львів,Одеса)</b>
-			</section>
-		</article><!--end projects-->
-		<article class="hidden"> <!--hidden news-->
-			
-		</article>
-		<footer>
-			<ul id="footer">
-				<li>Contacts</li>
-				<li>Links</li>
-				<li>Blog</li>
-				<li>Time menager</li>
-			</ul>
-		</footer>
+		</div>
+		<div class="flex-element register-2">
+			Register form
+		</div>
 	</div>
+
+	<div class="flex-specialization">
+		<div class="flex-element specialization-1">
+			<b>Кризові стани<br>
+			Психологічні травми<br>
+			Стосунки з партнером<br>
+			Сексуальність<br>
+			Сексологія<br>
+			Сексопаталогія<br>
+			Сексуальні дисфункції<br>
+			Депресії<br>
+			Дитячо-батьківськи стосунки</b>
+		</div>
+		<div class="flex-element specialization-2">
+			<b>Втрати<br>
+			Невпевненість в собі<br>
+			Фобії та страхи<br>
+			Нав'язливі думки<br>
+			Апатія<br>
+			Розлади харчової поведінки<br>
+			Робота з підлітками<br>
+			Дослідження способу організації<br> комунікації з оточуючими</b>
+		</div>
+	</div>
+
+	<div class="flex-projects">
+		<div class="flex-element">
+			<b>
+				Психологічні групи для підлітків<br> "Дивовижний Я" (Львів)<br>
+				Психотерапевтичні групи "Музика моєї<br> душі" (Львів / Одеса)<br>
+				Психотерапевтична група "Жити або<br> виживати"(Львів)<br>
+				Психологічні тренінги для організацій<br> : "Королівство","Виживання" і т.д (Київ,Львів,Одеса)<br>
+				Корпоративні Тренінги на підвишення<br> рівня комунікації(продажі, сервіс, <br>телепродажі) (Київ,Львів,Одеса)<br>
+			</b>
+		</div>
+	</div>
+
+	<!-- <div class="flex-news">
+		<div class="flex-element">
+			News
+		</div>
+	</div> -->
+
+	<div class="flex-footer">
+		<div class="flex-element nav-1">
+			Contacts
+		</div>
+		<div class="flex-element nav-2">
+			Referens
+		</div>
+		<div class="flex-element nav-3">
+			Blog
+		</div>
+		<div class="flex-element nav-3">
+			Working time
+		</div>
+	</div>
+
 </body>
 </html>
