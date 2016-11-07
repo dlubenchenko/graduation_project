@@ -4,6 +4,12 @@ body {
 	margin: 0;
 }
 
+b {
+	color: grey;
+	font-family: sans-serif;
+	font-size: 0.8em;
+}
+
 .flex-header-nav {
 	min-width: 320px;
 	border-bottom: 1px solid black;
@@ -57,11 +63,11 @@ body {
 }
 
 .about-2-1 {
-	margin: 30px auto 30px 50px;
+	margin: 20px auto 20px 40px;
 }
 
 .about-2-2 {
-	margin: 30px auto 30px 50px;
+	margin: 20px auto 20px 40px;
 }
 
 .flex-element {
