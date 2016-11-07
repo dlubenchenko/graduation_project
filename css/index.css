@@ -41,6 +41,7 @@ h1 {
 .nav-4 a {
 	text-decoration: none;
 	color: #fff;
+	display: block;
 }
 
 .nav-1, 

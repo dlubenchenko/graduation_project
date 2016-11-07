@@ -20,6 +20,13 @@
 	border-bottom: 2px solid black;
 }
 
+.nav-1, 
+.nav-2, 
+.nav-3, 
+.nav-4 {
+	flex: 200px;
+}
+
 .flex-nav, .flex-element,
 .flex-hello, .flex-element {
 	flex: 1;
