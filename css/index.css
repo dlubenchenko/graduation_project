@@ -15,7 +15,7 @@ h1 {
 }
 
 .flex-header {
-	
+	min-width: 320px;
 }
 
 .header-1 img {
@@ -28,6 +28,7 @@ h1 {
 .header-2,
 .header-3 {
 	background: transparent!important; /*Забрати імпортант*/
+	text-align: center;
 }
 
 .flex-nav {
@@ -49,10 +50,7 @@ h1 {
 	text-align: center;
 }
 
-.flex-hello img {
-	width: 100%;
-}
-
+.flex-hello img,
 .about-1 img {
 	width: 100%;
 	min-width: 320px;
