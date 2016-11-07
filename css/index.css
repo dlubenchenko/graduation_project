@@ -110,7 +110,8 @@ b {
 }
 
 .register-1 input[type=text],
-.register-1 input[type=email] {
+.register-1 input[type=email],
+.register-1 input[type=tel] {
 	border: none;
 	border-bottom: 1px solid grey;
 	width: 100%;
