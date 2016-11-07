@@ -1,6 +1,6 @@
 body {
 	font-family: 'PT Sans Narrow', sans-serif;
-	color: #fff;
+	color: #000;
 	margin: 0;
 }
 h1 {
@@ -69,23 +69,23 @@ b {
 }
 
 .about-2 {
+	padding: 0 10% 0 0;
 
 }
 
 .about-2-1 {
-	margin: 12% auto 5% 4%;
+
 }
 
 .about-2-2 {
-	margin: 10% 2% 5% 0;
+
 }
 
 .about-2-3 {
-	margin: 0 0 0 4%;
+	margin: 0 0 0 15%;
 }
 
 .flex-element {
-	color: #000;
 }
 
 .flex-register {
