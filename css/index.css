@@ -1,114 +1,115 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+
 .flex-header-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-
-
+	min-width: 320px;
+	border-bottom: 1px solid black;
 }
 
 .header-1 {
-	align-self: center;
+	margin: auto auto auto 30px;
+}
+
+.header-1 img {
+	width: 96px;
+	height: 67px;	
 }
 
 .nav-1 a, 
 .nav-2 a, 
 .nav-3 a, 
 .nav-4 a {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	height: 73px;
 }
 
-.flex-hello {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.hello-1 {
-	flex: 1 100%;
+.nav-1, 
+.nav-2, 
+.nav-3, 
+.nav-4 {
+	text-align: center;
+	border-left: 1px solid black;
+	width: 150px;
 }
 
 .flex-about {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap-reverse;
-
+	margin: 30px;
 }
 
 .about-1 img {
-	flex: 1 40%;
+	border-radius: 5px;
 }
 
-.about-2 {
+.flex-hello img,
+.about-1 img {
+	width: 100%;
+	min-width: 320px;
 
 }
 
 .about-2-1 {
-	align-self: center;
+	margin: 30px auto 30px 50px;
 }
 
 .about-2-2 {
-	align-self: flex-start;
+	margin: 30px auto 30px 30px;
 }
 
-.about-2-3 {
-	align-self: flex-end;
+.flex-element {
+	color: #000;
 }
 
 .flex-register {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-
+	background-color: grey;
 }
 
 .register-1 {
-	order: 2;
-	flex: 2 500px;	
+	min-width: 480px
+}
+
+.register-1 p {
+	margin: 3px;
 }
 
 .register-2 {
-	flex: 1 200px;	
+	margin:  30px auto 30px 30px;
 }
 
-.flex-specialization {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-
+.register-1 input[type=reset], 
+.register-1 input[type=submit] {
+	margin: 0 25px 10px 25px;
+	border-radius: 5px;
+	height: 35px;
+	width: 110px
 }
-.specialization-3 {
-	flex: 1 100%;
+
+.register-1 input[type=reset]:hover, 
+.register-1 input[type=submit]:hover {
+	background-color: #87CEFA;
 }
 
 .specialization-1,
 .specialization-2 {
-	flex-basis: 50%;
+	min-width: 320px;
+	text-align: center;
+}
+
+.specialization-3 {
+	text-align: center;
 }
 
 .flex-projects {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-
+	text-align: center;
 }
 
-/*.flex-news {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	border-bottom: 2px solid black;
-}*/
-
-.flex-footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 {
+	border-left: 2px solid black;
 }
