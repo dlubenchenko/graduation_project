@@ -3,7 +3,9 @@ body {
 	color: #fff;
 	margin: 0;
 }
-
+h1 {
+	margin: 0;
+}
 b {
 	color: grey;
 	font-family: sans-serif;
@@ -55,19 +57,31 @@ b {
 	border-radius: 5px;
 }
 
-.flex-hello img,
-.about-1 img {
+.flex-hello img {
 	width: 100%;
+	min-width: 320px;
+}
+
+.about-1 img {
+	width: 80%;
 	min-width: 320px;
 
 }
 
+.about-2 {
+
+}
+
 .about-2-1 {
-	margin: 20px auto 20px 40px;
+	margin: 12% auto 5% 4%;
 }
 
 .about-2-2 {
-	margin: 20px auto 20px 40px;
+	margin: 10% 2% 5% 0;
+}
+
+.about-2-3 {
+	margin: 0 0 0 4%;
 }
 
 .flex-element {
@@ -89,10 +103,10 @@ b {
 
 .register-1 input[type=reset], 
 .register-1 input[type=submit] {
-	margin: 0 25px 10px 25px;
+	margin: 0 15% 10px 15%;
 	border-radius: 5px;
-	height: 35px;
-	width: 110px
+	height: 30px;
+	width: 130px
 }
 
 .register-1 input[type=text],

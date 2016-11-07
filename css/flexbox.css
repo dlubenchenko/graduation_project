@@ -32,15 +32,18 @@
 .flex-about {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	flex-wrap: wrap-reverse;
-
 }
 
 .about-1 img {
-	flex: 1 35%;
+	flex: 1 40%;
 }
 
 .about-2 {
+	display: flex;
+	flex-direction: row;
+	flex: 2;
 
 }
 
@@ -49,19 +52,16 @@
 }
 
 .about-2-2 {
-	align-self: flex-start;
+	align-self: flex-end;
 }
 
 .about-2-3 {
-	align-self: flex-end;
+	align-self: flex-start;
 }
 
 .flex-register {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: space-around;
 
 }
 
@@ -82,7 +82,7 @@
 
 .specialization-1,
 .specialization-2 {
-	flex-basis: 50%;
+	flex: 2;
 }
 
 .flex-projects {
