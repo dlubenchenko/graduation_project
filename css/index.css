@@ -111,7 +111,8 @@ b {
 
 .register-1 input[type=text],
 .register-1 input[type=email],
-.register-1 input[type=tel] {
+.register-1 input[type=tel],
+ .register-1 textarea[name=comment]{
 	border: none;
 	border-bottom: 1px solid grey;
 	width: 100%;
@@ -130,6 +131,7 @@ b {
 	border-bottom: 1px solid grey;
 	margin: 0 0 0 10%;
 	width: 25%;
+	height: 45px;
 }
 
 .register-1 input[type=reset]:hover, 
