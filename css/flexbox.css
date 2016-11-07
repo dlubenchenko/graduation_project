@@ -58,19 +58,15 @@
 
 .flex-register {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
+	align-content: center;
 	justify-content: space-around;
 
 }
 
 .register-1 {
-	order: 2;
-	flex: 2 500px;	
-}
-
-.register-2 {
-	flex: 1 200px;	
+	
 }
 
 .flex-specialization {
