@@ -10,7 +10,7 @@
 
 	<div class="flex-header">
 		<div class="flex-element header-1">
-			<img src="img/logo.png">
+			<img src="img/logo.png" alt="logo">
 		</div>
 		<div class="flex-element header-2">
 			<p>Phone</p>
@@ -37,7 +37,7 @@
 
 	<div class="flex-hello">
 		<div class="flex-element hello-1">
-			<img src="img/hello.jpg">
+			<img src="img/hello.jpg" alt="hello_wallpaper">
 		</div>
 	</div>
 
@@ -66,7 +66,6 @@
 							</label>
 						</p>
 						<p> <!-- Номер телефону 380123456789 -->							<!-- Як зробити обовязковим -->
-							<label>
 								<select name="phone">
 									<option value="blank" selected> </option> 
 									<option value="039">039</option>
@@ -87,7 +86,8 @@
 									<option value="099">099</option>
 									<option value="091">091</option>
 								</select> - 
-							<input type="tel" name="phone" placeholder="1234567" pattern="[0-9]{7}" maxlength="7" required><i> Ваш телефон</i>
+							<label>
+							<input type="text" name="phone" placeholder="1234567" pattern="[0-9]{7}" maxlength="7" required><i> Ваш телефон</i>
 							</label>
 						</p>
 						<p> <!-- Вік  -->
