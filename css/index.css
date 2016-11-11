@@ -53,8 +53,12 @@ b {
 	flex: 1 600px;
 }
 
-.about-1 img {
+.flex-about img {
 	border-radius: 5px;
+}
+
+.about-2-4 img {
+	height: 500px;
 }
 
 .flex-hello img {
@@ -62,34 +66,16 @@ b {
 	min-width: 320px;
 }
 
-.about-1 img {
-	width: 80%;
-	min-width: 320px;
-
-}
-
-.about-2 {
-	padding: 0 10% 0 0;
-
-}
-
-.about-2-1 {
-
-}
-
-.about-2-2 {
-
-}
-
-.about-2-3 {
-	margin: 0 0 0 15%;
-}
 
 .flex-element {
 }
 
 .flex-register {
 	padding: 40px 0 40px 0;
+}
+
+.flex-register h1 {
+	text-align: center;
 }
 
 .register-1 {
@@ -112,7 +98,7 @@ b {
 .register-1 input[type=text],
 .register-1 input[type=email],
 .register-1 input[type=tel],
-.register-1 textarea[name=comment] {
+ .register-1 textarea[name=comment] {
 	border: none;
 	border-bottom: 1px solid grey;
 	width: 100%;
@@ -129,7 +115,6 @@ b {
 .register-1 select[name=location] {
 	border: none;
 	border-bottom: 1px solid grey;
-	margin: 0 0 0 10%;
 	width: 25%;
 	height: 45px;
 }
@@ -140,17 +125,26 @@ b {
 }
 
 .specialization-1,
-.specialization-2 {
+.specialization-2,
+.specialization-3 {
+	height: 200px;
 	min-width: 320px;
 	text-align: center;
 }
 
-.specialization-3 {
+.specialization-img-1 img,
+.specialization-img-2 img {
+	border-radius: 100%;
+	width: 80%;
 	text-align: center;
 }
 
 .flex-projects {
 	text-align: center;
+}
+
+.flex-projects p {
+	margin-top: 80px;
 }
 
 .footer-1,
