@@ -32,7 +32,7 @@
 .flex-about {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap-reverse;
 }
 
@@ -41,13 +41,12 @@
 }
 
 .about-1 {
-	flex: 2;
+
 
 }
 
 .about-2 {
 	align-self: center;
-
 }
 
 .about-2-1 {
@@ -55,11 +54,7 @@
 }
 
 .about-2-2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	flex: 3;
+	align-self: center;
 }
 
 .about-2-3 {
@@ -86,10 +81,11 @@
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap-reverse;
+
 }
 
-.specialization-img-1{
-	align-self: center;
+.specialization-img-1 {
+
 
 }
 
@@ -98,16 +94,15 @@
 }
 
 .specialization-4 {
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
+
+
 }
 
 .specialization-2 {
-	align-self: center;
+
 }
 
-.specialization-img-1 {
+.specialization-img-2 {
 
 }
 
